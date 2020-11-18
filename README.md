@@ -42,7 +42,7 @@ Ce modèe a été repris directement depuis Open-CV et est disponnible égalemen
 
 ### Modèle de détection des masques
 
-Une fois le visage identifié via le modèle de détection des visages, celui-ci est envoyé au modèle de détection des masques.$
+Une fois le visage identifié via le modèle de détection des visages, celui-ci est envoyé au modèle de détection des masques.
 
 Nous avons entrainé le modèle comme suit : 
 
@@ -50,6 +50,8 @@ Nous avons entrainé le modèle comme suit :
 Redimension des images et data-augmentation (flip , contrast) 
 
 2 - Transfert Learning : apprentissage sur les 50 dernières couches du modèle CNN pré-entrainé InceptionV3
+
+Le fichier permettant d'entrainter le modèle est : **CovidMaskDetection_V4.ipynb**
 
 ## Video detector Set up
 
